@@ -1,16 +1,16 @@
-// import { useState } from 'react'
-import Home from './Pages/Home'
-import About from './Pages/About'
-import Products from './Pages/Products'
-import NavBar from './Conponents/NavBar'
-import Footer from './Conponents/Footer'
+import Footer from "./Components/Footer"
+import Navbar from "./Components/NavBar"
+import About from "./Pages/About"
+import Home from "./Pages/Home"
+import Products from "./Pages/Products"
+
 
 function App() {
 
 
   return (
     <>
-      <NavBar/>
+      <Navbar/>
       <Home/>
       <About/>
       <Products/>
